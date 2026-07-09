@@ -29,7 +29,6 @@ httpx -l "$SUBS_FILE" \
     -td \
     -server \
     -cname \
-    -H "X-Hackerone_research: " \
     -o "$OUT_FILE"
 
 echo "[*] Done. Results saved to $OUT_FILE"
