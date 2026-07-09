@@ -42,7 +42,6 @@ httpx -l "$PORTS_FILE" \
     -td \
     -server \
     -cname \
-    -H "X-Hackerone_research: spl01t" \
     -o "$OUT_FILE"
 
 echo "[*] Done. Results saved to $OUT_FILE"
