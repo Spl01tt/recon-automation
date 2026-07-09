@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# recon.sh - Simple subfinder + httpx recon script for bug bounty
-
 if [ -z "$1" ]; then
     echo "Usage: $0 <domain>"
     exit 1
